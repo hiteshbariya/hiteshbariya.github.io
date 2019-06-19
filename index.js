@@ -1,15 +1,15 @@
-const images = ['fox1','fox2','fox3','fox4'];
-const imgElem = document.querySelector('img');
+// const images = ['fox1','fox2','fox3','fox4'];
+// const imgElem = document.querySelector('img');
 
 function randomValueFromArray(array) {
   let randomNo =  Math.floor(Math.random() * array.length);
   return array[randomNo];
 }
 
-setInterval(function() {
-  let randomChoice = randomValueFromArray(images);
-  imgElem.src = 'images/' + randomChoice + '.jpg';
-}, 2000)
+// setInterval(function() {
+//   let randomChoice = randomValueFromArray(images);
+//   imgElem.src = 'images/' + randomChoice + '.jpg';
+// }, 2000)
 
 // Register service worker to control making site work offline
 
@@ -35,7 +35,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
 
   addBtn.addEventListener('click', (e) => {
     // hide our user interface that shows our A2HS button
-    addBtn.style.display = 'none';
+    addBtn.style.display = 'block';
     // Show the prompt
     deferredPrompt.prompt();
     // Wait for the user to respond to the prompt
