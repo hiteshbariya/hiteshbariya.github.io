@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:4.0
+N:LastName;FirstName;;Mr;
+FN:Mr FirstName LastName
+EMAIL:email@email.com
+ORG:Organization Name
+TEL:123-456-7890
+TEL;type=FAX:123-123-1234
+URL;type=pref:http://website.com
+ADR:;Address Line 1;Address Line 2;CityName;State;12345;Country
+END:VCARD

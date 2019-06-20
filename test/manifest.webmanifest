@@ -1,0 +1,15 @@
+{
+  "background_color": "white",
+  "description": "Description",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Web App Name",
+  "short_name": "Web App",
+  "start_url": "index.html"
+}

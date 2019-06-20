@@ -1,0 +1,4 @@
+body{ padding: 0; margin: 0;}
+.btn,.btn:active,.btn:visited,.btn:focus{ padding: 10px 20px; display: inline-block; background: #2980b9; color: #ffffff; text-decoration: none; border:none;}
+section{padding: 20px; background: #ecf0f1}
+section:nth-of-type(odd){ background: #fcfcfc; }
